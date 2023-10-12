@@ -1,0 +1,47 @@
+body {
+  background-color: #f0f0f0;
+  font-family: cursive serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.player {
+  background-color: #007bff;
+  color: #fff;
+ padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.player:hover {
+  transform: scale(1.1);
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+label {
+  font-size: 16px;
+}
+
+span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 5px;
+}
